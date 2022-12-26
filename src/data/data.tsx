@@ -235,7 +235,7 @@ export const experience: TimelineItem[] = [
   },
   {
     date: 'March 2020 - Present',
-    location: 'Sabaraobe Studios',
+    location: 'Sabarobe Studios',
     title: 'FullStack Developer',
     content: (
       <p>
