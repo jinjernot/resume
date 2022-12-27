@@ -108,39 +108,6 @@ export interface Testimonial {
 }
 
 /**
- * Contact section
- */
-export interface ContactSection {
-  headerText?: string;
-  description: string;
-  items: ContactItem[];
-}
-
-export const ContactType = {
-  Email: 'Email',
-  Phone: 'Phone',
-  Location: 'Location',
-  Github: 'Github',
-  LinkedIn: 'LinkedIn',
-  Facebook: 'Facebook',
-  Twitter: 'Twitter',
-  Instagram: 'Instagram',
-} as const;
-
-export type ContactType = typeof ContactType[keyof typeof ContactType];
-
-export interface ContactItem {
-  type: ContactType;
-  text: string;
-  href?: string;
-}
-
-export interface ContactValue {
-  Icon: FC<IconProps> | ((props: SVGProps<SVGSVGElement>) => JSX.Element);
-  srLabel: string;
-}
-
-/**
  * Social items
  */
 export interface Social {

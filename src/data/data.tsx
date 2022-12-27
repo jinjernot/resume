@@ -18,8 +18,6 @@ import profilepic from '../images/profilepic.png';
 import testimonialImage from '../images/testimonial.webp';
 import {
   About,
-  ContactSection,
-  ContactType,
   Hero,
   HomepageMeta,
   PortfolioItem,
@@ -43,7 +41,6 @@ export const homePageMeta: HomepageMeta = {
 export const SectionId = {
   Hero: 'hero',
   About: 'about',
-  Contact: 'contact',
   Portfolio: 'portfolio',
   Resume: 'resume',
   Skills: 'skills',
@@ -76,11 +73,6 @@ export const heroData: Hero = {
       text: 'Resume',
       primary: true,
       Icon: DownloadIcon,
-    },
-    {
-      href: `#${SectionId.Contact}`,
-      text: 'Contact',
-      primary: false,
     },
   ],
 };
@@ -232,8 +224,6 @@ export const experience: TimelineItem[] = [
       • Interaction with IT to solve problems and improve assets<br/><br/>
       <b>Skills:</b> Service Desk · Data Management · XML · Troubleshooting · Help Desk Support · Technical Support · Multitasking · Microsoft Office · Content Management · Data Analysis
       </p>
-
-      
     ),
   },
 
@@ -249,8 +239,6 @@ export const experience: TimelineItem[] = [
       • 3D Asset modeling for NFT collections and Three.js projects<br/><br/>
       <b>Skills:</b> Blender · Three.js · Jira · Web Development · Git · HTML · CSS · React.js · JavaScript · XML · Selenium · Data Science · Python · Multitasking · Web Design · Adobe Photoshop · Blockchain
       </p>
-
-      
     ),
   },
 
@@ -338,19 +326,19 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'John Doe',
-      text: 'Use this as an opportunity to promote what it is like to work with you. High value testimonials include ones from current or past co-workers, managers, or from happy clients.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      name: '',
+      text: '',
+      image: '',
     },
     {
-      name: 'Jane Doe',
-      text: 'Here you should write some nice things that someone has said about you. Encourage them to be specific and include important details (notes about a project you were on together, impressive quality produced, etc).',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/14.jpg',
+      name: '',
+      text: '',
+      image: '',
     },
     {
-      name: 'Someone else',
-      text: 'Add several of these, and keep them as fresh as possible, but be sure to focus on quality testimonials with strong highlights of your skills/work ethic.',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/69.jpg',
+      name: '',
+      text: '',
+      image: '',
     },
   ],
 };
@@ -359,7 +347,7 @@ export const testimonial: TestimonialSection = {
  * Contact section
  */
 
-export const contact: ContactSection = {
+/* export const contact: ContactSection = {
   headerText: 'Get in touch.',
   description: 'You can reach me at:',
   items: [
@@ -384,7 +372,7 @@ export const contact: ContactSection = {
       href: 'https://github.com/jinjernot',
     },
   ],
-};
+}; */
 
 /**
  * Social items
