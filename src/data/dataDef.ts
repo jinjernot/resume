@@ -24,14 +24,6 @@ export interface Hero {
   imageSrc: string;
   name: string;
   description: JSX.Element;
-  actions: HeroActionItem[];
-}
-
-interface HeroActionItem {
-  href: string;
-  text: string;
-  primary?: boolean;
-  Icon?: (props: SVGProps<SVGSVGElement>) => JSX.Element;
 }
 
 /**
