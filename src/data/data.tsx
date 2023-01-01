@@ -58,11 +58,12 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a Guadalajara Based <strong className="text-stone-100">Full Stack Developer</strong>, currently working
-        at <strong className="text-stone-100">HP Inc.</strong> 
+        I'm a <a href='https://goo.gl/maps/v8M4rLLJoQoJHVnc6' target="_blank">Zapopan</a> Based <strong className="text-stone-100">Developer</strong>, currently working
+        at <strong className="text-stone-100">HP Inc.</strong><br /> I'm currently learning Python and Javascript
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me coding for <strong className="text-stone-100">Sabarobe Studios</strong> or playing video games.
+        In my free time time, you can catch me coding for <a href='https://www.sabarobestudios.io/' target="_blank"><strong className="text-stone-100">Sabarobe Studios</strong></a> or flipping shitcoins.
+        
       </p>
     </>
   ),
@@ -91,20 +92,7 @@ export const aboutData: About = {
  */
 export const skills: SkillGroup[] = [
   {
-    name: 'Spoken languages',
-    skills: [
-      {
-        name: 'English',
-        level: 8.5,
-      },
-      {
-        name: 'Spanish',
-        level: 9,
-      },
-    ],
-  },
-  {
-    name: 'Frontend development',
+    name: 'Frontend Development',
     skills: [
       {
         name: 'React',
@@ -118,10 +106,14 @@ export const skills: SkillGroup[] = [
         name: 'Typescript',
         level: 6,
       },
+      {
+        name: 'HTML / CSS',
+        level: 9,
+      },
     ],
   },
   {
-    name: 'Backend development',
+    name: 'Backend Development',
     skills: [
       {
         name: 'Python',
@@ -135,21 +127,8 @@ export const skills: SkillGroup[] = [
         name: 'Node.JS',
         level: 5,
       },
-    ],
-  },
-  {
-    name: 'Miscellaneous',
-    skills: [
       {
-        name: 'Selenium',
-        level: 9,
-      },
-      {
-        name: '3D Modeling',
-        level: 4,
-      },
-      {
-        name: 'Three.js',
+        name: 'SQL',
         level: 5,
       },
     ],
@@ -162,13 +141,13 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Sabarobe Studios Web page',
-    description: 'React Web page for Sabarobe Studios',
+    description: 'Web page for Sabarobe Studios',
     url: 'https://www.sabarobestudios.io/',
     image: porfolioImage,
   },
   {
     title: 'Pixel Homies',
-    description: 'React Web page for Pixel Homies NFT Collection',
+    description: 'Web page for Pixel Homies NFT Collection',
     url: 'https://www.pixelhomies.io/',
     image: porfolioImage,
   },
@@ -179,11 +158,26 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage,
   },
   {
-    title: 'Instagram Scraper',
-    description: 'Instagram Scraper Using Selenium',
+    title: 'Jinjernot',
+    description: 'Instagram and Twitter Scraper Using Selenium',
     url: 'https://github.com/jinjernot/Jinjernot',
     image: porfolioImage,
   },
+
+  {
+    title: 'Atzayacatol',
+    description: 'Web Scrapper and Database Management',
+    url: 'https://github.com/jinjernot/Atzayacatol',
+    image: porfolioImage,
+  },
+
+  {
+    title: 'Brigadier',
+    description: 'Telegram Bot',
+    url: 'https://github.com/jinjernot/Brigadier',
+    image: porfolioImage,
+  },
+  
  
 ];
 
