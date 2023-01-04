@@ -31,7 +31,7 @@ import {
  */
 export const homePageMeta: HomepageMeta = {
   title: 'Gilberto Garcia',
-  description: "Resume - FullStack Developer",
+  description: "Resume - Developer",
 };
 
 /**
@@ -141,7 +141,7 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Sabarobe Studios Web page',
-    description: 'Web page for Sabarobe Studios',
+    description: 'React.JS',
     url: 'https://www.sabarobestudios.io/',
     image: porfolioImage,
   },
@@ -177,6 +177,13 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/jinjernot/Brigadier',
     image: porfolioImage,
   },
+  {
+    title: 'Adriana Armenta Interiorismo',
+    description: 'Portfolio page',
+    url: 'https://adriana-interiorismo.netlify.app',
+    image: porfolioImage,
+  },
+  
   
  
 ];
