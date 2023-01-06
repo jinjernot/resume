@@ -62,7 +62,7 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">HP Inc.</strong><br /> I'm currently learning Python and Javascript
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time time, you can catch me coding for <a href='https://www.sabarobestudios.io/' target="_blank"><strong className="text-stone-100">Sabarobe Studios</strong></a> or flipping shitcoins.
+        In my free time, you can catch me coding for <a href='https://www.sabarobestudios.io/' target="_blank"><strong className="text-stone-100">Sabarobe Studios</strong></a> or trading crypto.
         
       </p>
     </>
@@ -81,7 +81,7 @@ export const aboutData: About = {
     {label: 'Location', text: 'Zapopan, Jalisco', Icon: MapIcon},
     {label: 'Age', text: '37', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Mexican', Icon: FlagIcon},
-    {label: 'Interests', text: 'Video Games, Music', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Video Games, Music, Cats, Cryptocurrency', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Guadalajara', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'HP inc.', Icon: OfficeBuildingIcon},
   ],
@@ -96,11 +96,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'React',
-        level: 8,
+        level: 7,
       },
       {
         name: 'JavaScript',
-        level: 7,
+        level: 6,
       },
       {
         name: 'Typescript',
@@ -117,11 +117,11 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Python',
-        level: 8,
+        level: 7,
       },
       {
         name: 'JavaScript',
-        level: 7,
+        level: 6,
       },
       {
         name: 'Node.JS',
@@ -140,46 +140,46 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'Sabarobe Studios Web page',
-    description: 'React.JS',
+    title: 'Sabarobe Studios',
+    description: 'Website for the start up project Sabarobe Studios, created using React.js',
     url: 'https://www.sabarobestudios.io/',
     image: porfolioImage,
   },
   {
-    title: 'Pixel Homies',
-    description: 'Web page for Pixel Homies NFT Collection',
+    title: 'Pixel Homies - WIP',
+    description: 'Minting site for Pixel Homies NFT Collection, created using Three.js, React.js and Solidity',
     url: 'https://www.pixelhomies.io/',
     image: porfolioImage,
   },
   {
     title: 'Boda Daniel & Cinthia',
-    description: 'Wedding invitation Website',
+    description: 'Wedding invitation created using Webflow',
     url: 'https://bodacinthiaydaniel.webflow.io/',
     image: porfolioImage,
   },
   {
-    title: 'Jinjernot',
-    description: 'Instagram and Twitter Scraper Using Selenium',
+    title: 'Jinjernot.py',
+    description: 'Personal Project - Instagram and Twitter Scraper Using Selenium',
     url: 'https://github.com/jinjernot/Jinjernot',
     image: porfolioImage,
   },
 
   {
-    title: 'Atzayacatol',
-    description: 'Web Scrapper and Database Management',
+    title: 'Atzayacatol.py',
+    description: 'Personal Project - Web Scrapper and Database Management',
     url: 'https://github.com/jinjernot/Atzayacatol',
     image: porfolioImage,
   },
 
   {
-    title: 'Brigadier',
-    description: 'Telegram Bot',
+    title: 'Brigadier.py',
+    description: 'Personal Project - Telegram Bot - WIP',
     url: 'https://github.com/jinjernot/Brigadier',
     image: porfolioImage,
   },
   {
     title: 'Adriana Armenta Interiorismo',
-    description: 'Portfolio page',
+    description: 'Portfolio page for Adriana - WIP',
     url: 'https://adriana-interiorismo.netlify.app',
     image: porfolioImage,
   },
