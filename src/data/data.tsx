@@ -141,46 +141,52 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Sabarobe Studios',
-    description: 'Website for the start up project Sabarobe Studios, created using React.js',
+    description: 'Website for the start up project Sabarobe Studios - React.js, Three.js',
     url: 'https://www.sabarobestudios.io/',
     image: porfolioImage,
   },
   {
-    title: 'Pixel Homies - WIP',
-    description: 'Minting site for Pixel Homies NFT Collection, created using Three.js, React.js and Solidity',
+    title: 'Pixel Homies',
+    description: 'Minting site for Pixel Homies NFT Collection - React.js, Three.js, Solidity  - WIP',
     url: 'https://www.pixelhomies.io/',
     image: porfolioImage,
   },
   {
     title: 'Boda Daniel & Cinthia',
-    description: 'Wedding invitation created using Webflow',
+    description: 'Wedding invitation static page - created with Webflow',
     url: 'https://bodacinthiaydaniel.webflow.io/',
     image: porfolioImage,
   },
   {
     title: 'Jinjernot.py',
-    description: 'Personal Project - Instagram and Twitter Scraper Using Selenium',
+    description: 'Personal Project - Instagram and Twitter Scrapper - Selenium, tkinder',
     url: 'https://github.com/jinjernot/Jinjernot',
     image: porfolioImage,
   },
 
   {
     title: 'Atzayacatol.py',
-    description: 'Personal Project - Web Scrapper and Database Management',
+    description: 'Personal Project - Web Scrapper and Database Management - Pandas, BeautifulSoup, MySQL',
     url: 'https://github.com/jinjernot/Atzayacatol',
     image: porfolioImage,
   },
 
   {
     title: 'Brigadier.py',
-    description: 'Personal Project - Telegram Bot - WIP',
+    description: 'Personal Project - Telegram Crypto Alerts Bot - WIP',
     url: 'https://github.com/jinjernot/Brigadier',
     image: porfolioImage,
   },
   {
     title: 'Adriana Armenta Interiorismo',
-    description: 'Portfolio page for Adriana - WIP',
+    description: 'Portfolio page for Adriana - React.js - WIP',
     url: 'https://adriana-interiorismo.netlify.app',
+    image: porfolioImage,
+  },
+  {
+    title: 'Sabarobe Indicator',
+    description: 'Personal Project - Trade signals on price action including moving averages - PineScript',
+    url: 'https://www.tradingview.com/script/JOaA4dXY-Sabarobe/',
     image: porfolioImage,
   },
   
