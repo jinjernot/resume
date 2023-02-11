@@ -59,7 +59,7 @@ export const heroData: Hero = {
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         I'm a <a href='https://goo.gl/maps/v8M4rLLJoQoJHVnc6' target="_blank">Zapopan</a> Based <strong className="text-stone-100">Developer</strong>, currently working
-        at <strong className="text-stone-100">HP Inc.</strong><br /> I'm currently learning Python and Javascript
+        at <strong className="text-stone-100">HP Inc.</strong><br /> I'm currently learning Data Analyst with Python.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me coding for <a href='https://www.sabarobestudios.io/' target="_blank"><strong className="text-stone-100">Sabarobe Studios</strong></a> or trading crypto.
@@ -165,6 +165,13 @@ export const portfolioItems: PortfolioItem[] = [
   },
 
   {
+    title: 'Predator-mutator.py',
+    description: 'Personal Project - XML Parcer to automate manual XML reviews - Python, BeautifulSoup',
+    url: 'https://github.com/jinjernot/Jinjernot',
+    image: porfolioImage,
+  },
+
+  {
     title: 'Atzayacatol.py',
     description: 'Personal Project - Web Scrapper and Database Management - Pandas, BeautifulSoup, MySQL',
     url: 'https://github.com/jinjernot/Atzayacatol',
@@ -207,8 +214,21 @@ export const education: TimelineItem[] = [
 ];
 
 export const experience: TimelineItem[] = [
+
   {
-    date: '2018 - Present',
+    date: '2023 - Present',
+    location: 'HP Inc',
+    title: 'Web Developer',
+    content: (
+      <p>
+      • Develop of Web Pages for Syndication.<br/>
+      • HyperX Showcase pages.<br/><br/>
+      <b>Skills:</b> Front-End Development · HTML · Cascading Style Sheets (CSS) · Git · JavaScript · Web Design · Graphic Design · Adobe Photoshop
+      </p>
+    ),
+  },
+  {
+    date: '2018 - 2023',
     location: 'HP Inc',
     title: 'Global Content Support',
     content: (
@@ -324,8 +344,8 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: '',
-      text: '',
+      name: 'Currently Learning:',
+      text: 'Data Analyst with Python',
       image: '',
     },
     {
