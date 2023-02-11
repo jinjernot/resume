@@ -62,7 +62,7 @@ export const heroData: Hero = {
         at <strong className="text-stone-100">HP Inc.</strong><br /> I'm currently learning Data Analyst with Python.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me coding for <a href='https://www.sabarobestudios.io/' target="_blank"><strong className="text-stone-100">Sabarobe Studios</strong></a> or trading crypto.
+        In my free time, you can catch me coding for <a href='https://www.sabarobestudios.io/' target="_blank"><strong className="text-stone-100">Sabarobe Studios</strong></a> playing video games or trading crypto.
         
       </p>
     </>
@@ -141,13 +141,13 @@ export const skills: SkillGroup[] = [
 export const portfolioItems: PortfolioItem[] = [
   {
     title: 'Sabarobe Studios',
-    description: 'Website for the start up project Sabarobe Studios - React.js, Three.js',
+    description: 'Website for Sabarobe Studios - React.js, Three.js',
     url: 'https://www.sabarobestudios.io/',
     image: porfolioImage,
   },
   {
     title: 'Pixel Homies',
-    description: 'Minting site for Pixel Homies NFT Collection - React.js, Three.js, Solidity  - WIP',
+    description: 'Minting site for Pixel Homies NFT Collection - React.js, Three.js, Solidity, GSAP  - WIP',
     url: 'https://www.pixelhomies.io/',
     image: porfolioImage,
   },
@@ -159,28 +159,28 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Jinjernot.py',
-    description: 'Personal Project - Instagram and Twitter Scrapper - Selenium, tkinder',
+    description: 'Instagram and Twitter Scrapper - Selenium, tkinder',
     url: 'https://github.com/jinjernot/Jinjernot',
     image: porfolioImage,
   },
 
   {
     title: 'Predator-mutator.py',
-    description: 'Personal Project - XML Parcer to automate manual XML reviews - Python, BeautifulSoup',
+    description: 'XML Parcer to automate manual XML reviews - Python, BeautifulSoup',
     url: 'https://github.com/jinjernot/Jinjernot',
     image: porfolioImage,
   },
 
   {
     title: 'Atzayacatol.py',
-    description: 'Personal Project - Web Scrapper and Database Management - Pandas, BeautifulSoup, MySQL',
+    description: 'Web Scrapper and Database Management - Pandas, BeautifulSoup, MySQL',
     url: 'https://github.com/jinjernot/Atzayacatol',
     image: porfolioImage,
   },
 
   {
     title: 'Brigadier.py',
-    description: 'Personal Project - Telegram Crypto Alerts Bot - WIP',
+    description: 'Telegram Crypto Alerts Bot - WIP',
     url: 'https://github.com/jinjernot/Brigadier',
     image: porfolioImage,
   },
@@ -192,7 +192,7 @@ export const portfolioItems: PortfolioItem[] = [
   },
   {
     title: 'Sabarobe Indicator',
-    description: 'Personal Project - Trade signals on price action including moving averages - PineScript',
+    description: 'Trade signals on price action including moving averages - PineScript',
     url: 'https://www.tradingview.com/script/JOaA4dXY-Sabarobe/',
     image: porfolioImage,
   },
@@ -223,7 +223,7 @@ export const experience: TimelineItem[] = [
       <p>
       • Develop of Web Pages for Syndication.<br/>
       • HyperX Showcase pages.<br/><br/>
-      <b>Skills:</b> Front-End Development · HTML · Cascading Style Sheets (CSS) · Git · JavaScript · Web Design · Graphic Design · Adobe Photoshop
+      <b>Skills:</b> Front-End Development · HTML · CSS  · Git · JavaScript · Web Design · Graphic Design · Adobe Photoshop
       </p>
     ),
   },
@@ -344,18 +344,18 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Currently Learning:',
-      text: 'Data Analyst with Python',
+      name: 'Data Analyst with Python',
+      text: 'Learning:',
+      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+    },
+    {
+      name: 'Dragon Quest XI: Echoes of the elusive age',
+      text: 'Playing:',
       image: '',
     },
     {
-      name: '',
-      text: '',
-      image: '',
-    },
-    {
-      name: '',
-      text: '',
+      name: 'Chris Christodoulou',
+      text: 'Listenig:',
       image: '',
     },
   ],
