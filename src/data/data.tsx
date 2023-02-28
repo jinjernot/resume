@@ -58,8 +58,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <a href='https://goo.gl/maps/v8M4rLLJoQoJHVnc6' target="_blank">Zapopan</a> Based <strong className="text-stone-100">Developer</strong>, currently working
-        at <strong className="text-stone-100">HP Inc.</strong><br /> I'm currently learning Data Analyst with Python.
+        I'm a <a href='https://goo.gl/maps/v8M4rLLJoQoJHVnc6' target="_blank">Zapopan</a> Based <strong className="text-stone-100">Web Developer</strong>, currently working
+        at <strong className="text-stone-100">HP Inc.</strong><br /> I'm currently learning <a href="https://app.datacamp.com/learn/career-tracks/data-engineer-with-python">Data Engineer with Python</a>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
         In my free time, you can catch me coding for <a href='https://www.sabarobestudios.io/' target="_blank"><strong className="text-stone-100">Sabarobe Studios</strong></a> playing video games or trading crypto.
@@ -140,6 +140,32 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
+    title: 'jinjernot-scrapper.py',
+    description: 'Instagram and Twitter Scrapper - Selenium, tkinder',
+    url: 'https://github.com/jinjernot/jinjernot-scapper',
+    image: porfolioImage,
+  },
+
+  {
+    title: 'predator-mutator.py',
+    description: 'XML Parcer to automate manual XML reviews - Python, BeautifulSoup',
+    url: 'https://github.com/jinjernot/Jinjernot',
+    image: porfolioImage,
+  },
+
+  {
+    title: 'atzayacatol.py',
+    description: 'Web Scrapper and Database Management - Pandas, BeautifulSoup, MySQL',
+    url: 'https://github.com/jinjernot/Atzayacatol',
+    image: porfolioImage,
+  },
+  {
+    title: 'brigadier.py',
+    description: 'Telegram Crypto Alerts Bot - WIP',
+    url: 'https://github.com/jinjernot/Brigadier',
+    image: porfolioImage,
+  },
+  {
     title: 'Sabarobe Studios',
     description: 'Website for Sabarobe Studios - React.js, Three.js',
     url: 'https://www.sabarobestudios.io/',
@@ -155,33 +181,6 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'Boda Daniel & Cinthia',
     description: 'Wedding invitation static page - created with Webflow',
     url: 'https://bodacinthiaydaniel.webflow.io/',
-    image: porfolioImage,
-  },
-  {
-    title: 'Jinjernot.py',
-    description: 'Instagram and Twitter Scrapper - Selenium, tkinder',
-    url: 'https://github.com/jinjernot/Jinjernot',
-    image: porfolioImage,
-  },
-
-  {
-    title: 'Predator-mutator.py',
-    description: 'XML Parcer to automate manual XML reviews - Python, BeautifulSoup',
-    url: 'https://github.com/jinjernot/Jinjernot',
-    image: porfolioImage,
-  },
-
-  {
-    title: 'Atzayacatol.py',
-    description: 'Web Scrapper and Database Management - Pandas, BeautifulSoup, MySQL',
-    url: 'https://github.com/jinjernot/Atzayacatol',
-    image: porfolioImage,
-  },
-
-  {
-    title: 'Brigadier.py',
-    description: 'Telegram Crypto Alerts Bot - WIP',
-    url: 'https://github.com/jinjernot/Brigadier',
     image: porfolioImage,
   },
   {
@@ -344,7 +343,7 @@ export const testimonial: TestimonialSection = {
   imageSrc: testimonialImage,
   testimonials: [
     {
-      name: 'Data Analyst with Python',
+      name: 'Data Engineer with Python',
       text: 'Learning:',
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
