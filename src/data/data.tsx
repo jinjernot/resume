@@ -140,61 +140,66 @@ export const skills: SkillGroup[] = [
  */
 export const portfolioItems: PortfolioItem[] = [
   {
-    title: 'jinjernot-scrapper.py',
-    description: 'Instagram and Twitter Scrapper - Selenium, tkinder',
-    url: 'https://github.com/jinjernot/jinjernot-scapper',
-    image: porfolioImage,
-  },
-
-  {
-    title: 'predator-mutator.py',
-    description: 'XML Parcer to automate manual XML reviews - Python, BeautifulSoup',
-    url: 'https://github.com/jinjernot/Jinjernot',
-    image: porfolioImage,
-  },
-
-  {
-    title: 'atzayacatol.py',
-    description: 'Web Scrapper and Database Management - Pandas, BeautifulSoup, MySQL',
-    url: 'https://github.com/jinjernot/Atzayacatol',
+    title: 'sachiel.py',
+    description: 'Instagram and Twitter Scrapper',
+    url: 'https://github.com/jinjernot/sachiel',
     image: porfolioImage,
   },
   {
-    title: 'brigadier.py',
+    title: 'shamshel.py',
+    description: 'Data Mining Tool',
+    url: 'https://github.com/jinjernot/shamshel',
+    image: porfolioImage,
+  },
+  {
+    title: 'ramiel.py',
+    description: 'Data Scrubbing Tool',
+    url: 'https://github.com/jinjernot/ramiel',
+    image: porfolioImage,
+  },
+  {
+    title: 'tabris.py',
+    description: 'Web Scrapper and Database Management',
+    url: 'https://github.com/jinjernot/tabris',
+    image: porfolioImage,
+  },
+  {
+    title: 'sandalphon.py',
     description: 'Telegram Crypto Alerts Bot - WIP',
-    url: 'https://github.com/jinjernot/Brigadier',
+    url: 'https://github.com/jinjernot/sandalphon',
     image: porfolioImage,
   },
   {
     title: 'Sabarobe Studios',
-    description: 'Website for Sabarobe Studios - React.js, Three.js',
+    description: 'Website for Sabarobe Studios',
     url: 'https://www.sabarobestudios.io/',
     image: porfolioImage,
   },
   {
     title: 'Pixel Homies',
-    description: 'Minting site for Pixel Homies NFT Collection - React.js, Three.js, Solidity, GSAP  - WIP',
+    description: 'Minting site for Pixel Homies NFT Collection - WIP',
     url: 'https://www.pixelhomies.io/',
     image: porfolioImage,
   },
   {
     title: 'Boda Daniel & Cinthia',
-    description: 'Wedding invitation static page - created with Webflow',
+    description: 'Wedding invitation static page',
     url: 'https://bodacinthiaydaniel.webflow.io/',
     image: porfolioImage,
   },
   {
     title: 'Adriana Armenta Interiorismo',
-    description: 'Portfolio page for Adriana - React.js - WIP',
+    description: 'Portfolio page for Adriana - WIP',
     url: 'https://adriana-interiorismo.netlify.app',
     image: porfolioImage,
   },
   {
     title: 'Sabarobe Indicator',
-    description: 'Trade signals on price action including moving averages - PineScript',
+    description: 'Trade signals on price action including moving averages',
     url: 'https://www.tradingview.com/script/JOaA4dXY-Sabarobe/',
     image: porfolioImage,
   },
+  
   
   
  
