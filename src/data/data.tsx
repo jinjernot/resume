@@ -58,11 +58,11 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <a href='https://goo.gl/maps/v8M4rLLJoQoJHVnc6' target="_blank">Zapopan</a> Based <strong className="text-stone-100">Web Developer</strong>, currently working
-        at <strong className="text-stone-100">HP Inc.</strong><br /> I'm currently learning <a href="https://app.datacamp.com/learn/career-tracks/data-engineer-with-python">Data Engineer with Python</a>.
+        I'm a <a href='https://goo.gl/maps/v8M4rLLJoQoJHVnc6' target="_blank">Zapopan</a> Based <strong className="text-stone-100">Web Developer</strong>, working
+        at <strong className="text-stone-100">HP Inc.</strong><br /> I'm currently learning <strong className="text-stone-100"><a href="https://app.datacamp.com/learn/career-tracks/data-engineer-with-python">Data Engineer with Python</a></strong>.
       </p>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me coding for <a href='https://www.sabarobestudios.io/' target="_blank"><strong className="text-stone-100">Sabarobe Studios</strong></a> playing video games or trading crypto.
+        In my free time, you can catch me coding for <a href='https://www.sabarobestudios.io/' target="_blank"><strong className="text-stone-100">Sabarobe Studios</strong></a>, playing video games or trading crypto.
         
       </p>
     </>
@@ -143,6 +143,12 @@ export const portfolioItems: PortfolioItem[] = [
     title: 'sachiel.py',
     description: 'Instagram and Twitter Scrapper',
     url: 'https://github.com/jinjernot/sachiel',
+    image: porfolioImage,
+  },
+  {
+    title: 'gaghiel.py',
+    description: 'Document Assembly Tool',
+    url: 'https://github.com/jinjernot/gaghiel',
     image: porfolioImage,
   },
   {
