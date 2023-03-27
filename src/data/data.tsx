@@ -158,11 +158,18 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage,
   },
   {
+    title: 'matarael.py',
+    description: 'Data Scrubbing Tool',
+    url: 'https://github.com/jinjernot/matarael',
+    image: porfolioImage,
+  },
+  {
     title: 'ramiel.py',
     description: 'Data Scrubbing Tool',
     url: 'https://github.com/jinjernot/ramiel',
     image: porfolioImage,
   },
+
   {
     title: 'tabris.py',
     description: 'Web Scrapper and Database Management',
