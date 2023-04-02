@@ -124,10 +124,6 @@ export const skills: SkillGroup[] = [
         level: 6,
       },
       {
-        name: 'Node.JS',
-        level: 5,
-      },
-      {
         name: 'SQL',
         level: 5,
       },
@@ -169,7 +165,6 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/jinjernot/ramiel',
     image: porfolioImage,
   },
-
   {
     title: 'tabris.py',
     description: 'Web Scrapper and Database Management',
@@ -182,6 +177,13 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://github.com/jinjernot/sandalphon',
     image: porfolioImage,
   },
+    {
+    title: 'sahaquiel.py',
+    description: 'Crypto Database - WIP',
+    url: 'https://github.com/jinjernot/sahaquiel',
+    image: porfolioImage,
+  },
+
   {
     title: 'Sabarobe Studios',
     description: 'Website for Sabarobe Studios',
@@ -212,8 +214,18 @@ export const portfolioItems: PortfolioItem[] = [
     url: 'https://www.tradingview.com/script/JOaA4dXY-Sabarobe/',
     image: porfolioImage,
   },
-  
-  
+  {
+    title: '',
+    description: '',
+    url: '',
+    image: porfolioImage,
+  },
+  {
+    title: '',
+    description: '',
+    url: '',
+    image: porfolioImage,
+  },
   
  
 ];
