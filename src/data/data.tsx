@@ -74,9 +74,8 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: ` I am a multidisciplinary professional with experience as Developer, Support Engineer and Content Management.
-  Able to quickly learn new technologies or tools and develop expertise quickly,
-  Creative problem-solving skills, familiar with scrum methodology.`,
+  description: `As a multidisciplinary professional with experience in development, support engineering, and content management,
+                I have a unique perspective that enables me to quickly learn new technologies and develop expertise in them.`,
   aboutItems: [
     {label: 'Location', text: 'Zapopan, Jalisco', Icon: MapIcon},
     {label: 'Age', text: '37', Icon: CalendarIcon},
@@ -250,9 +249,9 @@ export const experience: TimelineItem[] = [
     title: 'Web Developer',
     content: (
       <p>
-      • Develop of Web Pages for Syndication.<br/>
-      • HyperX Showcase pages.<br/><br/>
-      <b>Skills:</b> Front-End Development · HTML · CSS  · Git · JavaScript · Web Design · Graphic Design · Adobe Photoshop
+      • Develop HyperX Brand showcase pages, ensuring that all pages are visually appealing and user-friendly.<br/>
+      • Redesign the HP Web Content Solutions for Partners page, working closely with the team to develop a visually appealing and user-friendly layout.<br/>
+      • Maintain and update existing pages as necessary, and ensure that all pages are up-to-date and relevant to our target audience.<br/>
       </p>
     ),
   },
@@ -262,14 +261,12 @@ export const experience: TimelineItem[] = [
     title: 'Global Content Support',
     content: (
       <p>
-      • Immediate attention to critical cases on the content for product pages.<br/>
-      • Monitoring the flow of content (images, specs, descriptions, release dates) for the support pages.<br/>
-      • Publisher engagement and escalation management.<br/>
-      • Management of content tools.<br/>
-      • Review of content for new products.<br/>
-      • Monitoring the performance of web pages.<br/>
-      • Interaction with IT to solve problems and improve assets<br/><br/>
-      <b>Skills:</b> Service Desk · Data Management · XML · Troubleshooting · Help Desk Support · Technical Support · Multitasking · Microsoft Office · Content Management · Data Analysis
+      • Prioritize and address critical cases on product pages to ensure that content is accurate and up-to-date.<br/>
+      • Monitor the flow of content (including images, specs, descriptions, and release dates) for support pages, and ensure that all information is accurate and relevant.<br/>
+      • Engage with publishers and manage escalations to ensure that all content is of high quality and meets our standards.<br/>
+      • Manage content tools to ensure that content is easily accessible and up-to-date.<br/>
+      • Review content for new products and ensure that all information is accurate and relevant.<br/>
+      • Monitor the performance of web pages (including JavaScript, HTML, and CSS) and work with IT to identify and solve any problems or issues that arise.<br/>
       </p>
     ),
   },
@@ -280,11 +277,10 @@ export const experience: TimelineItem[] = [
     title: 'FullStack Developer',
     content: (
       <p>
-      • Design and develop web applications using React.js<br/>
-      • Development of trading algorithms using PineScript and Python<br/>
-      • Development of  web scraping and automation using Selenium<br/>
-      • 3D Asset modeling for NFT collections and Three.js projects<br/><br/>
-      <b>Skills:</b> Blender · Three.js · Jira · Web Development · Git · HTML · CSS · React.js · JavaScript · XML · Selenium · Data Science · Python · Multitasking · Web Design · Adobe Photoshop · Blockchain
+      • Design and develop web applications using React.js, ensuring that all applications are visually appealing, user-friendly, and optimized for performance.<br/>
+      • Develop trading algorithms using PineScript, ensuring that all algorithms are effective and efficient.<br/>
+      • Perform web scraping and automation with Selenium, ensuring that all data is accurately and efficiently retrieved.<br/>
+      • Create 3D asset models for NFT collections and Three.js projects, ensuring that all models are visually stunning and optimized for performance.<br/>
       </p>
     ),
   },
@@ -295,9 +291,10 @@ export const experience: TimelineItem[] = [
     title: 'Quickspecs Specialist',
     content: (
       <p>
-      • Development of Quickspecs documents for Business Notebook and Desktop.<br/>
-      • Development of Datasheets documents for Commercial accesories.<br/><br/>
-      <b>Skills:</b> Data Management · Multitasking · Microsoft Office · Graphic Design · Content Management · Adobe Photoshop
+      • Work closely with product managers, engineers, and other stakeholders to gather information and develop Quickspecs documents for our Business Notebook and Desktop products.<br/>
+      • Develop Datasheets documents for our Commercial accessories, ensuring that all information is accurate and up-to-date.<br/>
+      • Collaborate with cross-functional teams to ensure that all documentation meets our standards and is of high quality.<br/>
+      •Maintain and update existing documentation as necessary, and ensure that all documentation is easily accessible and up-to-date.<br/>
       </p>
     ),
   },
@@ -308,12 +305,11 @@ export const experience: TimelineItem[] = [
     title: 'Video Upload Coordinator',
     content: (
       <p>
-    • Provide video upload and publishing services to ~100 HPE marketing stakeholders across regions.<br/>
-    • Manage video upload  and publishing to HPE Video Gallery / YouTube, input all necessary metadata, update status to stakeholders.<br/>
-    • Work with support team to fix technical issues.<br/>
-    • Track performance and issues.<br/>
-    • Meet standard TAT.<br/><br/>
-    <b>Skills:</b> Asset Management · Data Management · XML · Multitasking · Microsoft Office · Content Management · Project Management · Data Analysis
+      • Receive requests for video upload and publishing through the Marketing Asset Publishing portal.<br/>
+      • Manage video upload and publishing to HPE Video Gallery / YouTube, inputting all necessary metadata and ensuring that all videos are accurately and efficiently published.<br/>
+      • Collaborate with cross-functional teams to ensure that all videos meet our standards and are of high quality.<br/>
+      • Work with the support team to fix technical issues and ensure that all videos are accessible and easily viewable.<br/>
+      • Track video performance and issues, and provide regular updates to stakeholders.<br/>
       </p>
     ),
   },
@@ -324,10 +320,11 @@ export const experience: TimelineItem[] = [
     title: 'Image Acquisition Lead',
     content: (
       <p>
-    • Ensure the automated delivery of product images and dynamic links in support of new product introductions and product updates.<br/>
-    • Engage with AMS, EMEA & APJ Businesses and Publishers to drive new business requirements, capabilities and processes that improve customer experience and end to end efficiency.<br/>
-    • Solve issues under tight deadlines, keeping track using a ticketing system to ensure customer satisfaction.<br/><br/>
-    <b>Skills:</b> Asset Management · Data Management · XML · Troubleshooting · Multitasking · Microsoft Office · Graphic Design · Content Management · Adobe Photoshop · Project Management
+      • Ensure the automated delivery of product images and dynamic links in support of new product introductions and updates.<br/>
+      • Engage with AMS, EMEA & APJ businesses and publishers to drive new business requirements, capabilities, and processes that improve customer experience and end-to-end efficiency.<br/>
+      • Collaborate with cross-functional teams to ensure that all processes are streamlined and optimized for efficiency.<br/>
+      • Troubleshoot issues under tight deadlines, keeping track using a ticketing system to ensure customer satisfaction.<br/>
+      • Provide regular updates to stakeholders and ensure that all processes meet our standards and are of high quality.<br/>
       </p>
     ),
   },
@@ -338,13 +335,14 @@ export const experience: TimelineItem[] = [
     title: 'Product Catalog Operations',
     content: (
       <p>
-      • Management and publishing content for the HPE.com product catalog worldwide.<br/>
-      • Development of web solutions for internal HPE clients.<br/>
-      • Coordination and launch of new products for the HPE.com online catalog.<br/>
-      • Web solutions for internal clients worldwide.<br/>
-      • Perform daily end to end product content update status check to ensure each system works properly.<br/>
-      • Participated in migration project from SDL Tridion to Adobe Enterprise Manager.<br/><br/>
-    <b>Skills:</b> Web Development · HTML · JavaScript · Data Management · XML · Troubleshooting · Multitasking · Microsoft Office · Content Management
+      • Manage and publish content for the HPE.com product catalog worldwide.<br/>
+      • Develop web solutions for internal HPE clients worldwide.<br/>
+      • Coordinate and launch new products for the HPE.com online catalog.<br/>
+      • Perform daily end-to-end product content update status checks to ensure that each system is working properly.<br/>
+      • Participate in a migration project from SDL Tridion to Adobe Enterprise Manager.<br/>
+      • Collaborate with cross-functional teams to ensure that all processes are streamlined and optimized for efficiency.<br/>
+      • Troubleshoot issues under tight deadlines, keeping track using a ticketing system to ensure customer satisfaction.<br/>
+      • Provide regular updates to stakeholders and ensure that all processes meet our standards and are of high quality.<br/>
       </p>
     ),
   },
@@ -355,11 +353,13 @@ export const experience: TimelineItem[] = [
     title: 'Technical Support Engineer',
     content: (
       <p>
-      • Remote Network Monitoring  and proactive activities to ensure guests have the proper Internet service in hotels all across Mexico.<br/>
+      • Perform remote network monitoring and proactive activities to ensure guests have the proper internet service in hotels all across Mexico.<br/>
       • Coordinate with local IT to fix problems in a fast way.<br/>
-      • Issue tracking using a ticketing system.<br/>
-      • Support  Coverage 24/7 via call center to help with issues related to the Internet Service.<br/><br/>
-      <b>Skills:</b> TCP/IP · Network Security · Service Desk · Troubleshooting · Help Desk Support · Technical Support · Multitasking · Microsoft Office
+      • Use a ticketing system to track issues and ensure that all issues are resolved in a timely manner.<br/>
+      • Provide 24/7 support coverage via a call center to help guests with issues related to the internet service.<br/>
+      • Collaborate with cross-functional teams to ensure that all processes are streamlined and optimized for efficiency.<br/>
+      • Troubleshoot issues under tight deadlines and ensure customer satisfaction.<br/>
+      • Maintain accurate documentation of network infrastructure and support processes.<br/>
       </p>
     ),
   },
