@@ -378,9 +378,9 @@ export const testimonial: TestimonialSection = {
       image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
     },
     {
-      name: 'Dragon Quest XI: Echoes of the elusive age',
+      name: 'The Legend of Zelda: Tears of the Kingdom',
       text: 'Playing:',
-      image: '',
+      image: '▲',
     },
     {
       name: 'Chris Christodoulou',
