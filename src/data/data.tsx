@@ -58,12 +58,8 @@ export const heroData: Hero = {
   description: (
     <>
       <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        I'm a <a href='https://goo.gl/maps/v8M4rLLJoQoJHVnc6' target="_blank">Zapopan</a> Based <strong className="text-stone-100">Web Developer</strong>, working
-        at <strong className="text-stone-100">HP Inc.</strong><br /> I'm currently learning <strong className="text-stone-100"><a href="https://app.datacamp.com/learn/career-tracks/data-engineer-with-python">Data Engineer with Python</a></strong>.
-      </p>
-      <p className="prose-sm text-stone-200 sm:prose-base lg:prose-lg">
-        In my free time, you can catch me coding for <a href='https://www.sabarobestudios.io/' target="_blank"><strong className="text-stone-100">Sabarobe Studios</strong></a>, playing video games or trading crypto.
-        
+        Well met!  I'm a Data Engineer based in Zapopan, currently immersed in the intricacies of data at <strong className="text-stone-100">HP Inc.</strong><br />
+        Beyond the corporate landscape, I channel my coding prowess into <strong className="text-stone-100">Sabarobe Studios.</strong>
       </p>
     </>
   ),
@@ -74,13 +70,14 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `As a multidisciplinary professional with experience in development, support engineering, and content management,
-                I have a unique perspective that enables me to quickly learn new technologies and develop expertise in them.`,
+  description: `Venturing into the domains of data engineering, development, and content management,
+  I've honed a versatile skill arsenal that distinguishes me. Unleashing an innate ability to swiftly grasp emerging technologies,`,
+
   aboutItems: [
     {label: 'Location', text: 'Zapopan, Jalisco', Icon: MapIcon},
-    {label: 'Age', text: '37', Icon: CalendarIcon},
+    {label: 'Age', text: '38', Icon: CalendarIcon},
     {label: 'Nationality', text: 'Mexican', Icon: FlagIcon},
-    {label: 'Interests', text: 'Video Games, Music, Cats, Cryptocurrency', Icon: SparklesIcon},
+    {label: 'Interests', text: 'Video Games, Music, Cats, MTG, Cryptocurrency', Icon: SparklesIcon},
     {label: 'Study', text: 'University of Guadalajara', Icon: AcademicCapIcon},
     {label: 'Employment', text: 'HP inc.', Icon: OfficeBuildingIcon},
   ],
@@ -116,15 +113,19 @@ export const skills: SkillGroup[] = [
     skills: [
       {
         name: 'Python',
-        level: 7,
+        level: 9,
       },
       {
         name: 'JavaScript',
-        level: 6,
+        level: 7,
       },
       {
         name: 'SQL',
-        level: 5,
+        level: 6,
+      },
+      {
+        name: 'MongoDB',
+        level: 7,
       },
     ],
   },
@@ -214,9 +215,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage,
   },
   {
-    title: '',
-    description: '',
-    url: '',
+    title: 'leliel',
+    description: 'Build dynamic product pages by fetching data from API.',
+    url: 'https://github.com/jinjernot/leliel',
     image: porfolioImage,
   },
   {
@@ -243,6 +244,19 @@ export const education: TimelineItem[] = [
 
 export const experience: TimelineItem[] = [
 
+
+  {
+    date: '2023 - Present',
+    location: 'HP Inc',
+    title: 'Data Engineer',
+    content: (
+      <p>
+      • Architect and implement data automations, enhancing efficiency and productivity within the organization.<br/>
+      • Offer steadfast support to applications, ensuring seamless operation and troubleshooting as needed.<br/>
+      • Collaborate cross-functionally with various teams to identify and implement process improvements, fostering a cohesive and optimized workflow.<br/>
+      </p>
+    ),
+  },
   {
     date: '2023 - Present',
     location: 'HP Inc',
@@ -375,16 +389,21 @@ export const testimonial: TestimonialSection = {
     {
       name: 'Data Engineer with Python',
       text: 'Learning:',
-      image: 'https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/169.jpg',
+      image: '',
     },
     {
-      name: 'The Legend of Zelda: Tears of the Kingdom',
+      name: 'Metal Gear Solid 3, again',
       text: 'Playing:',
-      image: '▲',
+      image: '',
     },
     {
-      name: 'Chris Christodoulou',
+      name: 'Thundercat',
       text: 'Listenig:',
+      image: '',
+    },
+    {
+      name: 'Shingeki no Kyojin',
+      text: 'Watching:',
       image: '',
     },
   ],
