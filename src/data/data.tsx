@@ -70,8 +70,9 @@ export const heroData: Hero = {
  */
 export const aboutData: About = {
   profileImageSrc: profilepic,
-  description: `Venturing into the domains of data engineering, development, and content management,
-  I've honed a versatile skill arsenal that distinguishes me. Unleashing an innate ability to swiftly grasp emerging technologies,`,
+  description: `As a multidisciplinary professional with experience in development, support engineering, and content
+  management, I have a unique perspective that enables me to quickly learn new technologies and develop
+  expertise in them.`,
 
   aboutItems: [
     {label: 'Location', text: 'Zapopan, Jalisco', Icon: MapIcon},
