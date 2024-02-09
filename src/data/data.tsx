@@ -221,9 +221,9 @@ export const portfolioItems: PortfolioItem[] = [
     image: porfolioImage,
   },
   {
-    title: '',
-    description: '',
-    url: '',
+    title: 'zeruel',
+    description: 'Automate the content acquisition process using Python.',
+    url: 'https://github.com/jinjernot/zeruel',
     image: porfolioImage,
   },
   
@@ -251,9 +251,11 @@ export const experience: TimelineItem[] = [
     title: 'Data Engineer',
     content: (
       <p>
-      • Architect and implement data automations, enhancing efficiency and productivity within the organization.<br/>
-      • Offer steadfast support to applications, ensuring seamless operation and troubleshooting as needed.<br/>
-      • Collaborate cross-functionally with various teams to identify and implement process improvements, fostering a cohesive and optimized workflow.<br/>
+      • Develop in-house applications to automate manual tasks across teams, including generating documents from raw data and validating data for quality assurance purposes.<br/>
+      • Provided scripting support to enable data analysis, facilitating insights for various teams.<br/>
+      • Collaborated with cross-functional teams to understand requirements and deliver effective solutions.<br/>
+      • Leveraged Agile methodology to manage project work effectively, including sprint planning, backlog grooming, and stand-ups, ensuring timely delivery and alignment with stakeholder expectations.<br/>
+      • Troubleshoot and resolved issues related to data processing, application performance, or database functionality.<br/>
       </p>
     ),
   },
